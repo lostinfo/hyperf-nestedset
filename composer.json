@@ -1,0 +1,21 @@
+{
+    "name": "lostinfo/hyperf-nestedset",
+    "description": "Nested Set Model for Hyperf 2.0 and up",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lostinfo",
+            "email": "1225039937@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "hyperf/database": "~2.0.0",
+        "hyperf/utils": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lostinfo\\Nestedset\\": "src/"
+        }
+    }
+}
