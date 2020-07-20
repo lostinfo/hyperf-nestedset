@@ -1081,7 +1081,7 @@ trait NodeTrait
         $result = parent::getArrayableRelations();
 
         // To fix #17 when converting tree to json falling to infinite recursion.
-        unset($result['parent']);
+        // unset($result['parent']);
 
         return $result;
     }
